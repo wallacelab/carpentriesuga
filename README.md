@@ -2,8 +2,9 @@
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-prologue.svg)](https://badge.fury.io/rb/jekyll-theme-prologue)
 
-This is the web page for the Carpentries@UGA, to coordinate all Carpentries-related work at the Universitry of Georgia. The website theme is based on the [Prologue jekyll theme](https://chrisbobbe.github.io/jekyll-theme-prologue/) from [Chris Bobbe](https://chrisbobbe.github.io).
+This is the web page for the Carpentries@UGA, to coordinate all Carpentries-related work at the Universitry of Georgia. The website theme is based on the [Prologue jekyll theme](https://chrisbobbe.github.io/jekyll-theme-prologue/) from [Chris Bobbe](https://chrisbobbe.github.io). This site is currently under development.
 
+If you want to be involved in planning/running Carpentries workshops at UGA, please join the Carpentries@UGA conversation on Slack at https://join.slack.com/t/carpentriesuga/signup. (Note: If you use a @uga.edu email address, you should be able to join automatically.)
 
 # Major site pages
 HTML and markdown pages in the root directory become the major sections on the webpage. Index.html (or index.md) is the main landing page.
