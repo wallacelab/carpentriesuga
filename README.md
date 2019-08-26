@@ -5,11 +5,14 @@
 This is the web page for the Carpentries@UGA, to coordinate all Carpentries-related work at the Universitry of Georgia. The website theme is based on the [Prologue jekyll theme](https://chrisbobbe.github.io/jekyll-theme-prologue/) from [Chris Bobbe](https://chrisbobbe.github.io).
 
 
+# Major site pages
+HTML and markdown pages in the root directory become the major sections on the webpage. Index.html (or index.md) is the main landing page.
+
 # Instructions/guide for where page components are
 
 1. **Your `_config.yml` file must include the following line or your homepage won't work**: `collections: [sections]`. This tells Jekyll to look in the _sections folder (which you will create) for your content and render it all on one page.
 
-2. **The `_sections` folder** in the root directory contains the major sections. Set a cover photo in any of the sections by adding `cover-photo: path/to/photo.jpg` and `cover-photo-alt: your alt text here` to the section's frontmatter. (Photos are currently stored in assets/images)
+2. **The `_sections` folder** in the root directory contains the major sections for the home page. Set a cover photo in any of the sections by adding `cover-photo: path/to/photo.jpg` and `cover-photo-alt: your alt text here` to the section's frontmatter. (Photos are currently stored in assets/images)
 
 All new sections should be added as html or Markdown documents in the `_sections` folder. The following section variables can be set with [frontmatter](https://jekyllrb.com/docs/frontmatter/):
 - `title` (required)
